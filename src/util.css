@@ -1,0 +1,44 @@
+/* Popup container */
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Country flag */
+.info-flag {
+  width: 100%;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Country name */
+.info-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+/* Confirmed cases */
+.info-confirmed {
+  color: #cc1034; /* red */
+  font-weight: bold;
+}
+
+/* Recovered cases */
+.info-recovered {
+  color: #28a745; /* green */
+  font-weight: bold;
+}
+
+/* Deaths */
+.info-deaths {
+  color: #fb4443; /* darker red */
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+.footer {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media-button a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 24px; /* Increased size */
+  transition: color 0.3s ease;
+}
+
+.social-media-button a:hover {
+  color: #1da1f2; /* Light blue hover effect */
+}
+
+.footer__credits {
+  color: #fff;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.footer__credits .highlight {
+  color: #1da1f2;
+  font-weight: bold;
+}
