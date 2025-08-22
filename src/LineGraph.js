@@ -117,7 +117,6 @@ import {
   TimeScale, // ✅ needed for time axis
 } from "chart.js";
 import "chartjs-adapter-date-fns"; // ✅ required for time scale
-import { format } from "date-fns";
 
 ChartJS.register(
   CategoryScale,
